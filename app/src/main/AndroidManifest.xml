@@ -10,8 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +25,8 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
         <activity android:name=".FoodList" />
-        <activity android:name=".FoodDetail"></activity>
+        <activity android:name=".FoodDetail" />
+        <activity android:name=".Cart"></activity>
     </application>
 
 </manifest>
